@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/result.png">
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScript Client-side Form Validation</title>
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form action="">
+                <h1>Create Account</h1>
+                <div class="social-icons">
+                    <a href="https://twitter.com/kashaf_dev" class="icon"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href="https://github.com/kashaf20" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/shaikh-kashaf-ali/" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/kashaf.dev?igsh=aHdqbnA4cGl4dWY5" class="icon"><i class="fa-brands fa-instagram"></i></i></a>
+                </div>
+                <span>or use your email for registeration</span>
+                <div class="form-control">
+                    <input type="text" placeholder="Name" id="signUpNameInput">
+                    <span class="signUpNameError"></span>
+                </div>
+                <div class="form-control">
+                    <input type="email" placeholder="Email" id="signUpEmailInput">
+                    <span class="signUpEmailError"></span>
+                </div>
+                <div class="form-control">
+                    <input type="password" placeholder="Password" id="signUpPasswordInput">
+                    <span class="signUpPasswordError"></span>
+                </div>
+                <a href="#">Forget your password?</a>
+                <button class="submitbut" id="signUpSubmitbut">sign UP</button>
+                
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form action="">
+                <h1>sign In</h1>
+                <div class="social-icons">
+                    <a href="https://twitter.com/kashaf_dev" class="icon"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href="https://github.com/kashaf20" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/shaikh-kashaf-ali/" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/kashaf.dev?igsh=aHdqbnA4cGl4dWY5" class="icon"><i class="fa-brands fa-instagram"></i></i></a>
+                </div>
+                <span>or use your email password</span>
+                <div class="form-control">
+                    <input type="email" placeholder="Email" id="signInEmailInput">
+                    <span class="signInEmailError"></span>
+                </div>
+                <div class="form-control">
+                    <input type="password" placeholder="Password" id="signInPasswordInput">
+                    <span class="signInPasswordError"></span>
+                </div>
+                <a href="#">Forget your password?</a>
+                <button class="submitbut inputFieldId" id="signInSubmitbut">sign IN</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Welcome Back!</h1>
+                    <p>Enter your personal details to use all of site features</p>
+                    <button class="hidden" id="login">sign In</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Hello, world!</h1>
+                    <p>Register with personal details to use all of site features</p>
+                    <button class="hidden" id="register">sign UP</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src="https://kit.fontawesome.com/f256b69bc3.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+
+</html>
